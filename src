@@ -1,0 +1,14 @@
+def adicionar_elemento(lista, elemento):
+    lista.append(elemento)
+
+# inicialização da lista
+minha_lista = []
+
+# Leitura do elemento a ser adicionado
+elemento = input("Digite um elemento para adicionar à lista: ")
+
+# Chamado da função
+adicionar_elemento(minha_lista, elemento)
+
+# Exibição da lista modifivada
+print("lista após a adição do elemento", minha_lista)
