@@ -1,0 +1,23 @@
+```plaintext
+# Ignorar arquivos compilados em Python
+__pycache__/
+
+# Ignorar ambientes virtuais
+env/
+.venv/
+
+# Ignorar arquivos de configuração de editores
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+Enunciado
+Desenvolva um script em Python que permita ao usuário adicionar um elemento a uma lista e exiba a lista modificada. O script deve seguir as etapas abaixo:
+
+1. Inicializar uma lista vazia chamada minha_lista.
+2. Solicitar ao usuário que insira um elemento (string) para ser adicionado à lista.
+3. Implementar uma função chamada adicionar_elemento que receba a lista e o elemento como parâmetros e adicione o elemento à lista.
+4. Exibir a lista modificada.
