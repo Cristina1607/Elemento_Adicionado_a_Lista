@@ -1,0 +1,31 @@
+# Adicionador de Elementos a uma Lista
+
+Este projeto é um script em Python que permite ao usuário adicionar um elemento a uma lista utilizando uma função. Em seguida, a lista modificada é exibida na tela. É uma prática simples e eficaz para quem deseja aprender sobre listas e funções em Python.
+
+## Descrição
+
+O script solicita ao usuário que insira um elemento, adiciona esse elemento a uma lista utilizando a função `adicionar_elemento`, e exibe a lista resultante.
+
+### Como funciona:
+
+1. O usuário é solicitado a inserir um elemento (string) para ser adicionado à lista.
+2. O elemento é passado para a função `adicionar_elemento`, que o adiciona à lista `minha_lista` usando o método `append`.
+3. A lista modificada é exibida ao usuário.
+
+## Requisitos
+
+- Python 3.x deve estar instalado.
+
+## Como executar
+
+1. Clone este repositório:
+
+   ```bater
+   git clone https://github.com/Cristina1607/Elemento_Adicionado_a_Lista.git
+2. Navegue até o diretório do projeto:
+cd adivinhe-o-numero
+3. Execute o script Python:
+python Elemento_Adicionado_a_Lista.py
+
+Licença
+Este projeto está licenciado sob a MIT License.
